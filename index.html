@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Tamagochi</title>
+</head>
+<body>
+    <div id="stats">
+        <div>Vida <span id="health"></span></div>
+        <div>Felicidad <span id="happiness"></span></div>
+        <div>Stamina <span id="stamina"></span></div>
+    </div>
+    <div id="tamagochi">
+        <img id="state" src="./img/state1.png" alt="dinosaurio 8bit">
+    </div>
+    <div id="controls">
+        <button onclick="addHealth()">Alimentar</button>
+        <button onclick="addHappiness()">Jugar</button>
+        <button onclick="addStamina()">Dormir</button>
+    </div>
+    <script src="tamagochi.js"></script>
+</body>
+</html>
